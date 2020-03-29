@@ -2,7 +2,8 @@ Caching library for Mongoose queries using Redis.
 
 This library monkey-patches Mongoose' Query and Aggregate exec functions to add a cache layer in between. And it also adds some methods to mongoose.
 
-#Getting Started
+# Getting Started
+
 Require this library at the start of the application so that its functionality is available throughout the application.
 ```$xslt
 const mongoose = require('mongoose');
@@ -26,7 +27,8 @@ In .cache() function, you can pass an object specifying either one of the follow
 - `persist: true`: if query result should be persisted permanently in redis.
 - If none of these options is specified, then query result is cached for 24 hours.
 
-#Examples
+# Examples
+
 ```$xslt
 var dummyModel = mongoose.model('dummyModel');
 
