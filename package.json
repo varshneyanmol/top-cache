@@ -1,0 +1,34 @@
+{
+  "name": "top-cache",
+  "version": "1.0.0",
+  "description": "cache library for mongoose using redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varshneyanmol/top-cache.git"
+  },
+  "author": "Anmol Varshney",
+  "license": "ISC",
+  "keywords": [
+    "mongoose",
+    "redis",
+    "cache",
+    "mongodb",
+    "mongo",
+    "model",
+    "document",
+    "query",
+    "aggregate"
+  ],
+  "bugs": {
+    "url": "https://github.com/varshneyanmol/top-cache/issues"
+  },
+  "homepage": "https://github.com/varshneyanmol/top-cache#readme",
+  "devDependencies": {
+    "mongoose": "^5.9.6",
+    "redis": "^3.0.2"
+  }
+}
