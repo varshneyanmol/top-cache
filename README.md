@@ -2,6 +2,14 @@ Caching library for Mongoose queries using Redis.
 
 This library monkey-patches Mongoose' Query and Aggregate exec functions to add a cache layer in between. And it also adds some methods to mongoose.
 
+# Installation
+
+Using NPM
+
+```
+npm install top-cache --save
+```
+
 # Getting Started
 
 Require this library at the start of the application so that its functionality is available throughout the application.
